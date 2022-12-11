@@ -72,17 +72,20 @@
 
     <!--svg-image - use in webside (zoom also not blur) , upload in sosial media then - png -->
 
-    <h2>header<h2>
-    <header>    
-        <img src="images/hero.svg" />
+    <h2 >header<h2>
+    <header class="hero">    
+        <img class="hero-img" src="images/hero.svg" />
+        <h1 class="hero-heading">Heading Inside header <span class="header-inverted">Focus</span> </h1>    
     </header>
 
     <hr>
 
     <h2>@Section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This is white background</p> 
+    <section class="section ow ">
+        <div class="container container-center">
+            <h3>white section</h3>
+            <p>One of HTML's main jobs is to give text structure so that a browser can display an HTML document the way its developer intends. This article explains the way HTML can be used to structure a page of text by adding headings and paragraphs, emphasizing words, creating lists, and more.</p>     
+        </div>
     </section>
 
     <section>
@@ -94,13 +97,19 @@
 
     <h2>@footer</h2>
 
-    <footer>
-        <div>This is footer for in pade down</div>
-        <ul>
-            <li>socialOne</li>
-            <li>socialTwo</li>
-            <li>socialThird</li>
-        </ul> 
+    <footer class="footer">
+        <div cass="footer-header">This is footer for in pade down</div>
+        <ul class="list-none-bullet social-links">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
+            </li>
+        </ul>
     </footer>
 
 </body>

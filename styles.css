@@ -2,6 +2,8 @@
 
 :root {
     --primary-color : #a855f7;
+    --off-white: #e4e4e7;
+    --dark-gray: #404040 ;
 }
 
 body {
@@ -84,6 +86,54 @@ hr {
     /* color: black */
 }
  
-/* .nev-brand {
+.hero {
+    padding: 2rem;
+}
 
-} */
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    color : var(--dark-gray);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+
+.hero .hero-heading .header-inverted {
+    color: var(--primary-color);
+}
+
+/* section */
+
+.section h1,h2,h3 {
+    text-align: center;
+    padding: 2rem;
+}
+.ow {
+    background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--off-white);
+    padding: 2rem 1rem;  
+    text-align: center;
+    /* color: */
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+      
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+
+
