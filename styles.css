@@ -4,6 +4,8 @@
     --primary-color : #a855f7;
     --off-white: #e4e4e7;
     --dark-gray: #404040 ;
+    --full-dark: #111827;
+    --off-pink: #f0abfc;
 }
 
 body {
@@ -35,6 +37,8 @@ hr {
 .link {
     padding: 0.5rem 1rem;
     text-decoration: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .primery {
@@ -65,6 +69,8 @@ hr {
     padding : 1rem;
     color: white;
     border-bottom-left-radius: 1rem;
+    margin: -0.45rem;
+    font-weight:100px;
 }
 
 .navigation .link {
@@ -83,11 +89,13 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+    font-size: large;
     /* color: black */
 }
  
 .hero {
     padding: 2rem;
+    padding-top: 5rem
 }
 
 .hero .hero-img {
@@ -111,24 +119,38 @@ hr {
 
 .section h1,h2,h3 {
     text-align: center;
-    padding: 2rem;
+    padding: 0.7rem;
 }
 .ow {
     background-color: var(--off-white);
+    padding-bottom: 1rem;
 }
+ .section p {
+    padding-inline-start: 0px;
+ }
+
+ .section link {
+    /* margin-top: 10rem; */
+ }
 
 /* footer */
 
 .footer {
-    background-color: var(--off-white);
+    background-color: var(--full-dark);
     padding: 2rem 1rem;  
     text-align: center;
     /* color: */
     border-top-right-radius: 1rem;
 }
 
+.footer-header {
+    color : white;
+    font-weight: bold;
+    font-size: larger;
+}
+
 .footer .link {
-      
+      color : var(--off-pink);
 }
 
 .footer ul{
